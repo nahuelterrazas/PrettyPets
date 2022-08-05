@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		320A8192289C5D0A007A1FCC /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320A8191289C5D0A007A1FCC /* UIImageView+Extension.swift */; };
+		320A8194289C9259007A1FCC /* PetDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320A8193289C9259007A1FCC /* PetDetailViewModel.swift */; };
 		32507F9E289BA077009F492E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32507F9D289BA077009F492E /* AppDelegate.swift */; };
 		32507FA0289BA077009F492E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32507F9F289BA077009F492E /* SceneDelegate.swift */; };
 		32507FA2289BA077009F492E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32507FA1289BA077009F492E /* HomeViewController.swift */; };
 		32507FA7289BA077009F492E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32507FA6289BA077009F492E /* Assets.xcassets */; };
 		32507FAA289BA077009F492E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32507FA8289BA077009F492E /* LaunchScreen.storyboard */; };
-		32507FB6289BA0D3009F492E /* PetBreedsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32507FB5289BA0D3009F492E /* PetBreedsViewController.swift */; };
+		32507FB6289BA0D3009F492E /* BreedsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32507FB5289BA0D3009F492E /* BreedsViewController.swift */; };
+		32507FB8289BA423009F492E /* BreedsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32507FB7289BA423009F492E /* BreedsTableViewCell.swift */; };
+		32507FBB289BA4E6009F492E /* BreedsListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32507FBA289BA4E6009F492E /* BreedsListService.swift */; };
+		32507FBF289BA535009F492E /* BreedsDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32507FBE289BA535009F492E /* BreedsDTO.swift */; };
+		32507FC2289BA580009F492E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32507FC1289BA580009F492E /* Constants.swift */; };
+		32507FC5289BA6B0009F492E /* BreedsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32507FC4289BA6B0009F492E /* BreedsListViewModel.swift */; };
+		32507FC8289BA872009F492E /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32507FC7289BA872009F492E /* ApiManager.swift */; };
+		32507FCB289BBBEA009F492E /* PetDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32507FCA289BBBEA009F492E /* PetDetailsViewController.swift */; };
+		32507FCD289BBF84009F492E /* PetDetailService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32507FCC289BBF84009F492E /* PetDetailService.swift */; };
+		32507FCF289BC147009F492E /* BreedImageDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32507FCE289BC147009F492E /* BreedImageDTO.swift */; };
+		7A0B18EF90CC4954C8B341E6 /* Pods_PrettyPets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2715D5959AE0319268259934 /* Pods_PrettyPets.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2715D5959AE0319268259934 /* Pods_PrettyPets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrettyPets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		320A8191289C5D0A007A1FCC /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		320A8193289C9259007A1FCC /* PetDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDetailViewModel.swift; sourceTree = "<group>"; };
 		32507F9A289BA077009F492E /* PrettyPets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrettyPets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32507F9D289BA077009F492E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32507F9F289BA077009F492E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -23,7 +38,18 @@
 		32507FA6289BA077009F492E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32507FA9289BA077009F492E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32507FAB289BA077009F492E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		32507FB5289BA0D3009F492E /* PetBreedsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetBreedsViewController.swift; sourceTree = "<group>"; };
+		32507FB5289BA0D3009F492E /* BreedsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedsViewController.swift; sourceTree = "<group>"; };
+		32507FB7289BA423009F492E /* BreedsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedsTableViewCell.swift; sourceTree = "<group>"; };
+		32507FBA289BA4E6009F492E /* BreedsListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedsListService.swift; sourceTree = "<group>"; };
+		32507FBE289BA535009F492E /* BreedsDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedsDTO.swift; sourceTree = "<group>"; };
+		32507FC1289BA580009F492E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		32507FC4289BA6B0009F492E /* BreedsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedsListViewModel.swift; sourceTree = "<group>"; };
+		32507FC7289BA872009F492E /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		32507FCA289BBBEA009F492E /* PetDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDetailsViewController.swift; sourceTree = "<group>"; };
+		32507FCC289BBF84009F492E /* PetDetailService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDetailService.swift; sourceTree = "<group>"; };
+		32507FCE289BC147009F492E /* BreedImageDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedImageDTO.swift; sourceTree = "<group>"; };
+		59C06F359AFEE05981503CF8 /* Pods-PrettyPets.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrettyPets.debug.xcconfig"; path = "Target Support Files/Pods-PrettyPets/Pods-PrettyPets.debug.xcconfig"; sourceTree = "<group>"; };
+		C15CAB797631CD416038B1EE /* Pods-PrettyPets.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrettyPets.release.xcconfig"; path = "Target Support Files/Pods-PrettyPets/Pods-PrettyPets.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A0B18EF90CC4954C8B341E6 /* Pods_PrettyPets.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08E69FF4C9199ACB34B65177 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59C06F359AFEE05981503CF8 /* Pods-PrettyPets.debug.xcconfig */,
+				C15CAB797631CD416038B1EE /* Pods-PrettyPets.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		0CADB136AAEBE067BE58DB59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2715D5959AE0319268259934 /* Pods_PrettyPets.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		320A8195289CCAA8007A1FCC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				320A8193289C9259007A1FCC /* PetDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		320A8196289CCAB0007A1FCC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				32507FCA289BBBEA009F492E /* PetDetailsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		320A8197289CCAB3007A1FCC /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				32507FCC289BBF84009F492E /* PetDetailService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		32507F91289BA077009F492E = {
 			isa = PBXGroup;
 			children = (
 				32507F9C289BA077009F492E /* PrettyPets */,
 				32507F9B289BA077009F492E /* Products */,
+				08E69FF4C9199ACB34B65177 /* Pods */,
+				0CADB136AAEBE067BE58DB59 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +140,8 @@
 			isa = PBXGroup;
 			children = (
 				32507FA1289BA077009F492E /* HomeViewController.swift */,
+				32507FC0289BA574009F492E /* Utils */,
+				32507FBC289BA507009F492E /* Shared */,
 				32507FB2289BA0A8009F492E /* Modules */,
 			);
 			path = App;
@@ -78,25 +150,90 @@
 		32507FB2289BA0A8009F492E /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				32507FB3289BA0AE009F492E /* PetBreeds */,
+				32507FC9289BBBC9009F492E /* PetDetails */,
+				32507FB3289BA0AE009F492E /* Breeds */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
 		};
-		32507FB3289BA0AE009F492E /* PetBreeds */ = {
+		32507FB3289BA0AE009F492E /* Breeds */ = {
 			isa = PBXGroup;
 			children = (
 				32507FB4289BA0B6009F492E /* View */,
+				32507FC3289BA689009F492E /* ViewModel */,
+				32507FB9289BA4C9009F492E /* Service */,
 			);
-			path = PetBreeds;
+			path = Breeds;
 			sourceTree = "<group>";
 		};
 		32507FB4289BA0B6009F492E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				32507FB5289BA0D3009F492E /* PetBreedsViewController.swift */,
+				32507FB5289BA0D3009F492E /* BreedsViewController.swift */,
+				32507FB7289BA423009F492E /* BreedsTableViewCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		32507FB9289BA4C9009F492E /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				32507FBA289BA4E6009F492E /* BreedsListService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		32507FBC289BA507009F492E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				32507FC6289BA866009F492E /* Networking */,
+				32507FBD289BA518009F492E /* Models */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		32507FBD289BA518009F492E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				32507FBE289BA535009F492E /* BreedsDTO.swift */,
+				32507FCE289BC147009F492E /* BreedImageDTO.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		32507FC0289BA574009F492E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				32507FC1289BA580009F492E /* Constants.swift */,
+				320A8191289C5D0A007A1FCC /* UIImageView+Extension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		32507FC3289BA689009F492E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				32507FC4289BA6B0009F492E /* BreedsListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		32507FC6289BA866009F492E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				32507FC7289BA872009F492E /* ApiManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		32507FC9289BBBC9009F492E /* PetDetails */ = {
+			isa = PBXGroup;
+			children = (
+				320A8197289CCAB3007A1FCC /* Service */,
+				320A8196289CCAB0007A1FCC /* View */,
+				320A8195289CCAA8007A1FCC /* ViewModel */,
+			);
+			path = PetDetails;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,9 +243,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32507FAE289BA077009F492E /* Build configuration list for PBXNativeTarget "PrettyPets" */;
 			buildPhases = (
+				2AA43B2BDFE03578257A7816 /* [CP] Check Pods Manifest.lock */,
 				32507F96289BA077009F492E /* Sources */,
 				32507F97289BA077009F492E /* Frameworks */,
 				32507F98289BA077009F492E /* Resources */,
+				5DF118EDF1196592D6AF54B5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -164,15 +303,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2AA43B2BDFE03578257A7816 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrettyPets-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DF118EDF1196592D6AF54B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PrettyPets/Pods-PrettyPets-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PrettyPets/Pods-PrettyPets-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PrettyPets/Pods-PrettyPets-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		32507F96289BA077009F492E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32507FBB289BA4E6009F492E /* BreedsListService.swift in Sources */,
+				32507FCD289BBF84009F492E /* PetDetailService.swift in Sources */,
+				320A8192289C5D0A007A1FCC /* UIImageView+Extension.swift in Sources */,
 				32507FA2289BA077009F492E /* HomeViewController.swift in Sources */,
-				32507FB6289BA0D3009F492E /* PetBreedsViewController.swift in Sources */,
+				320A8194289C9259007A1FCC /* PetDetailViewModel.swift in Sources */,
+				32507FC8289BA872009F492E /* ApiManager.swift in Sources */,
+				32507FBF289BA535009F492E /* BreedsDTO.swift in Sources */,
+				32507FB8289BA423009F492E /* BreedsTableViewCell.swift in Sources */,
+				32507FB6289BA0D3009F492E /* BreedsViewController.swift in Sources */,
 				32507F9E289BA077009F492E /* AppDelegate.swift in Sources */,
+				32507FC5289BA6B0009F492E /* BreedsListViewModel.swift in Sources */,
 				32507FA0289BA077009F492E /* SceneDelegate.swift in Sources */,
+				32507FC2289BA580009F492E /* Constants.swift in Sources */,
+				32507FCF289BC147009F492E /* BreedImageDTO.swift in Sources */,
+				32507FCB289BBBEA009F492E /* PetDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +498,7 @@
 		};
 		32507FAF289BA077009F492E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59C06F359AFEE05981503CF8 /* Pods-PrettyPets.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -314,6 +507,7 @@
 				DEVELOPMENT_TEAM = 2DB36S6ZG2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PrettyPets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pretty Pets";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -333,6 +527,7 @@
 		};
 		32507FB0289BA077009F492E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C15CAB797631CD416038B1EE /* Pods-PrettyPets.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -341,6 +536,7 @@
 				DEVELOPMENT_TEAM = 2DB36S6ZG2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PrettyPets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pretty Pets";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

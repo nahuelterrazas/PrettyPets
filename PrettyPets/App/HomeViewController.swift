@@ -55,18 +55,19 @@ class HomeViewController: UIViewController {
     }
     
     private func setupAnimalButtons() {
-        let PetBreedListVC = PetBreedsViewController()
-        ["cat", "dog"].forEach { pet in
+        let PetBreedListVC = BreedsViewController()
+        ["cat"].forEach { pet in
             let button = UIButton(type: .system, primaryAction: UIAction(handler: { _ in
                 self.navigationController?.pushViewController(PetBreedListVC, animated: true)}))
-            var configuration = UIButton.Configuration.filled()
+            var configuration = UIButton.Configuration.borderedTinted()
             configuration.title = "Help a \(pet)"
             configuration.image = UIImage(systemName: "pawprint.fill")
             configuration.imagePadding = 5
-            configuration.baseBackgroundColor = .secondarySystemFill
+            configuration.baseBackgroundColor = .black
             configuration.buttonSize = .large
             
             button.configuration = configuration
+            button.tintColor = .white
             
             petsStackView.addArrangedSubview(button)
         }
